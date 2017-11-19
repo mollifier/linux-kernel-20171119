@@ -22,6 +22,9 @@ help:
 	@echo "OBJS = $(OBJS)"
 	@echo 'build hello world'
 
+hello.tar.gz: $(SRCS)
+	tar czf $@ $^
+
 clean:
 	rm -f hello *.o
 
