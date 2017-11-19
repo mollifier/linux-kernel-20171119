@@ -18,9 +18,9 @@ hello: $(OBJS)
 	cc -o hello $(OBJS)
 
 help:
-	echo "SRCS = $(SRCS)"
-	echo "OBJS = $(OBJS)"
-	echo 'build hello world'
+	@echo "SRCS = $(SRCS)"
+	@echo "OBJS = $(OBJS)"
+	@echo 'build hello world'
 
 clean:
 	rm -f hello *.o
