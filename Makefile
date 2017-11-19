@@ -23,5 +23,5 @@ help:
 	echo 'build hello world'
 
 clean:
-	rm hello *.o
+	rm -f hello *.o
 
