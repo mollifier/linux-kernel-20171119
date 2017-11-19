@@ -1,7 +1,10 @@
-#include <stdio.h>
+/* #include <stdio.h> */
+
+void print_hello(void);
 
 int main(int argc, char *argv[])
 {
-  printf("%s\n", "Hello, world!!");
+  print_hello();
   return 0;
 }
+
