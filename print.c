@@ -2,6 +2,6 @@
 
 void print_hello(void)
 {
-  printf("%s\n", "Super Hello, world 2!!!");
+  printf("%s\n", "Hyper Hello, world 2!!!");
 }
 
